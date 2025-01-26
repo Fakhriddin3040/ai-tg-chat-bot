@@ -7,6 +7,6 @@ async def main_menu_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Команда /menu – показать главное меню
     await update.callback_query.answer()
     await update.callback_query.edit_message_text(
-        "*Главное меню*",
+        "ㅤㅤㅤㅤㅤㅤㅤㅤㅤГлавное меню",
         reply_markup=create_main_menu()
     )

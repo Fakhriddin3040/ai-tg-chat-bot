@@ -7,6 +7,6 @@ async def about_handler(update: Update, context: CallbackContext) -> None:
     await update.callback_query.answer()
 
     await update.callback_query.edit_message_text(
-        "О Latoken",
+        "ㅤㅤㅤㅤㅤㅤㅤㅤ💡Немного про Latoken",
         reply_markup=create_about_company_keyboard()
     )

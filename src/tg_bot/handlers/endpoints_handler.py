@@ -40,7 +40,7 @@ class EndpointsHandler:
         await context.bot.send_message(chat_id=update.effective_chat.id, text=response)
         await update.callback_query.answer()
         await update.callback_query.edit_message_text(
-            "*Главное меню*",
+            "        💡Немного про Latoken",
             reply_markup=create_main_menu()
         )
 
